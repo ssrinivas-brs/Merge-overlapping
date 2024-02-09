@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> merge overlapping intervals</title>
+    <link rel="icon" href="assets/img/brs-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+        
+          <div class="flex-grow-1">
+            <div class="ReactTitle ">
+              <h3> merge overlapping intervals</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h5 class="text-start">
+        merge overlapping intervals</h5>
+      <p class="text-start">
+        Given a set of time intervals in any order, our task is to merge all overlapping 
+        intervals into one and output the result which should have only mutually exclusive intervals
+      </p>
+      <div class="container"></div>
+      <h5>Merge Intervals</h5>
+    <label for="intervalInput">Enter Intervals (e.g., [1,3], [2,6], [8,10], [15,18]):</label>
+    <input type="text" id="intervalInput" placeholder="Enter intervals">
+    <button type="button" class="btn btn-primary"  onclick="mergeIntervals()">mergeIntervals</button>
+
+    <div id="result"></div>
+
+      
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-center px-5">
+        <div>
+          <button
+            onclick="setTheme('#1A4B84')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('#991E14')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('#FEAD06')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/merge.js"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
